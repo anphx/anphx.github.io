@@ -45,6 +45,25 @@
 @import "0-settings/helpers";
 
 /* =======================
+:: Font Face Declarations
+======================= */
+@font-face {
+  font-family: 'sohne-mono';
+  src: url('../fonts/Sohne\ Mono\ Font.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sohne-var';
+  src: url('../fonts/Sohne.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* =======================
 :: 1-Tools and Libs
 ======================= */
 /* >>>>>>>>>>>>>> :: 1.1-Normalize <<<<<<<<<<<<<<< */

@@ -43,16 +43,18 @@ layout: default
                   <br />
                   {% if item.competences.size > 0 %}
                   <a
-                    class="collapsed summary__link"
-                    data-toggle="collapse"
-                    data-target="#collapse-{{index}}"
-                    aria-expanded="true"
+                    class="summary__link"
+                    data-bs-toggle="collapse"
+                    href="#collapse-{{index}}"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapse-{{index}}"
                   ></a>
                   {% endif %}
                 </div>
                 <div
                   id="collapse-{{index}}"
-                  class="collapse show"
+                  class="collapse"
                   aria-labelledby="heading-{{index}}"
                 >
                   <div class="card-body">

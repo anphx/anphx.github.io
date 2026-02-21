@@ -284,10 +284,14 @@
 .summary__link {
   font-size: 15px;
   color: var(--primary-color);
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 10px;
+  text-decoration: none;
 }
 
 .timeline {
-  .summary__link.collapsed:before {
+  .summary__link:not([aria-expanded="true"]):before {
     content: "See more ▶";
   }
   .summary__link[aria-expanded="true"]:before {

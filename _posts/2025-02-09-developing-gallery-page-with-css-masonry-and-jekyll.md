@@ -17,7 +17,7 @@ Before we start, ensure you have the following:
 - A Jekyll project set up.
 - Basic knowledge of HTML, CSS, and Liquid templating.
 
-#### 1-Create the Gallery Page
+#### 1. Create the Gallery Page
 
 First, create a new file named `captures.html` in the `_pages` directory of your Jekyll project. Add the following front matter and HTML structure:
 
@@ -45,7 +45,7 @@ permalink: /captures/
 
 This code sets up a gallery page with a masonry layout. The data-masonry attribute is used to enable the masonry layout with percentage-based positioning.
 
-#### 2-Add custom CSS for your Masonry Layout
+#### 2. Add custom CSS for your Masonry Layout
 
 For example, pen your main CSS file (e.g., main.css) and add the following styles:
 
@@ -76,7 +76,7 @@ For example, pen your main CSS file (e.g., main.css) and add the following style
 
 These styles ensure that the images are displayed in a masonry layout with proper spacing and alignment.
 
-#### 3-Add Images to the Gallery
+#### 3. Add Images to the Gallery
 
 To add images to your gallery, place them in the assets/images directory (or any other directory you prefer). To help with filtering images in a specific folder, you can add extra information for the front matter in `_config.yml`
 
@@ -90,7 +90,7 @@ default:
       layout: "gallery"
 ```
 
-#### 4-Build and Serve Your Jekyll Site
+#### 4. Build and Serve Your Jekyll Site
 
 Finally, build and serve your Jekyll site to see the gallery in action. Run the following command in your terminal:
 
