@@ -9,7 +9,7 @@ timeline:
   [
     {
       image: /images/about/work-from-home.svg,
-      timeRange: 2021-2025,
+      timeRange: 2021-Now,
       jobTitle: Backend Engineer - Lendo AB,
       jobLocation: Stockholm - Sweden,
       competences:

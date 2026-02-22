@@ -11,41 +11,6 @@ Check the theme in action [Live Demo](https://danto-jekyll.netlify.app/) |
 
 * * *
 
-### Theme features
-
-- Works with GitHub Pages (host it for free)
-- Dark and light mode
-- No jQuery, only vanilla JS
-- 100% responsive design
-- Clean and modern code
-- Optimized for mobile devices
-- Compatible with modern browsers
-- Section featured posts
-- Page latest posts
-- Page videos
-- Post navigation
-- Section tag
-- Super fast performance ⚡⚡⚡
-- Social sharing buttons
-- Scroll to top button
-- Syntax highlighting (supports the Jekyll syntax highlighter)
-- Medium style image zoom
-- Image gallery
-- Tag page
-- Author page
-- Custom logo support
-- Support for multiple authors
-- Supports video posts
-- Supports contact form (Formspree)
-- Supports MailChimp newsletter
-- Supports Disqus comments
-- Supports Google Analytics
-- Ionicons icons
-- Free Google Fonts
-- Free Updates & Support
-
-* * *
-
 ## Installation
 
 ### Installing Ruby & Jekyll
@@ -57,11 +22,5 @@ If this is your first time using Jekyll, please follow the [Jekyll docs](https:/
 ### Deployment
 
 To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `bundle exec jekyll serve` to start the Jekyll server.
-
-* * *
-
-### Documentation
-
-Before using the Danto theme, please read the attached documentation.
 
 * * *
