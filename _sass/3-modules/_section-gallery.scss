@@ -16,6 +16,14 @@
     grid-template-columns: repeat(6, 1fr);
     gap: 8px;
 
+    @media (max-width: $desktop) {
+      gap: 6px;
+    }
+
+    @media (max-width: $tablet) {
+      gap: 5px;
+    }
+
     @media (max-width: $mobile) {
       gap: 4px;
     }
@@ -26,8 +34,16 @@
       background: var(--background-alt-color);
       user-select: none;
 
+      @media (max-width: $desktop) {
+        border-radius: 18px;
+      }
+
+      @media (max-width: $tablet) {
+        border-radius: 14px;
+      }
+
       @media (max-width: $mobile) {
-        border-radius: 12px;
+        border-radius: 10px;
       }
 
       img {
@@ -39,10 +55,34 @@
 
     .section-gallery__image:nth-child(odd) {
       transform: rotate(-15deg);
+
+      @media (max-width: $desktop) {
+        transform: rotate(-12deg);
+      }
+
+      @media (max-width: $tablet) {
+        transform: rotate(-10deg);
+      }
+
+      @media (max-width: $mobile) {
+        transform: rotate(-8deg);
+      }
     }
 
     .section-gallery__image:nth-child(even) {
       transform: rotate(15deg);
+
+      @media (max-width: $desktop) {
+        transform: rotate(12deg);
+      }
+
+      @media (max-width: $tablet) {
+        transform: rotate(10deg);
+      }
+
+      @media (max-width: $mobile) {
+        transform: rotate(8deg);
+      }
     }
   }
 }
