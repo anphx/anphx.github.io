@@ -4,17 +4,19 @@ title: Photo Captures
 permalink: /captures/
 ---
 
-<div class="row" data-masonry='{"percentPosition": true }'>
+<div class="gallery-masonry" data-masonry='{"percentPosition": true, "itemSelector": ".gallery-item", "columnWidth": ".gallery-sizer", "gutter": 16}'>
+  <!-- Masonry sizer for column width -->
+  <div class="gallery-sizer"></div>
+
   {% assign galleryImages = site.static_files | where: "layout", "gallery" %}
 
   {% for image in galleryImages %}
-    <div class="col-sm-6 col-lg-3 p-2">
-      <div class="card m-0 p-0 border-0">
-        <img
-          src="{{ image.path }}"
-          alt="{{ image.name }}"
-          class="card-img-top" />
-      </div>
+    <div class="gallery-item">
+      <img
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        data-src="{{ image.path }}"
+        alt="{{ image.name }}"
+        class="lazy" />
     </div>
   {% endfor %}
 </div>

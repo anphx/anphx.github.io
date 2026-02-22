@@ -55,7 +55,7 @@ hr {
 
 pre {
   font-family: sohne-mono, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-size: $code-font-size; /* 2 */
 }
 
 /* Text-level semantics

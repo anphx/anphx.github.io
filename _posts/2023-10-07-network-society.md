@@ -3,39 +3,17 @@ layout: post
 title: Network Society – Estonia Model & Vietnam Adoption
 description: A story of two different adoption models of the network society
 date: 2023-10-07 14:42:00 +0200
-image: "/images/network.jpg"
 tags: [techno]
 featured: yes
 ---
 
-#### What do we know about "Network Society"?
+### What do we know about "Network Society" ?
 
 Manuel Castells – a sociologist, frequently associated with information society and communication research – has written several books about the new form of community or movements in the shape of society. According to Manuel, a network society is <mark>“a society whose social structure is made up of networks powered by digital technology.” He believes that “we are passing from the industrial age to the information age.”</mark> In the 20th century, the rapid rise of information technology had been unleashing the most fundamental force of our time, hyperconnectivity, which is reshaping all areas of our technology, economy and social institutions according to a new set of rules. Face-to-face communications are no longer the only form of communication.
 
 People can connect regardless of geographical distance via the global network of mass media, phone, fax and computers and are less and less linked by a shared history and shared face-to-face communications. The new form of communication leads to a new way of structuring the human-to-human relationship or what so-called society. Data is considered the new oil. Many people believe that we are on the cusp of a fundamental transformation in our political-economy, in how we choose to organize society concerning industry, organizations, and communities. Coming along with this emerging is unlimited potential for us to move forward:
 
-<div class="columns-container">
-  <div class="row">
-    <div class="col-lg-7 col">
-      <div class="card card--border-top element-bottomshadow">
-        <div class="card-body">
-          <h5 class="card-title">Massive</h5>
-          <p class="card-text">Massive Communication. One individual can reach out to hundreds, thousands or even millions of people – offers a massive chance for individuals to grow and run their own business. This enormous communication potential also encourages the creators to create. Mass communication opens a gate for people to make their fortune, which seems like a fair game for whoever able to play.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-5 col">
-      <div class="card card--border-left element-bottomshadow">
-        <div class="card-body ">
-          <h5 class="card-title">Flat</h5>
-          <p class="card-text">The world is flat. Never before had the world became so reachable in the context of socialization.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<br />
+> Massive communication and flat world are the two most significant benefits of the network society. The world is now more connected than ever before, and the communication potential is enormous. The world is flat because the distance between people is no longer a barrier for communication. People can connect with each other regardless of their geographical location.
 
 However, this new form of society also adds new challenges:
 
@@ -45,7 +23,7 @@ However, this new form of society also adds new challenges:
 
 - **Self-awareness and “fake news” phenomenon**. Information in the network society is one-way from one to millions. Being conscious of the network is always a big challenge.
 
-#### Adoption of Network Society: Estonia Model
+### Adoption of Network Society: Estonia Model
 
 Estonia is an example of how a country can follow the network society model. Their e-solutions have led to Estonia becoming one of the ones most developed digital societies. Estonia claimed their independence from the Soviet Union in 1991. As a result, Communism was then dismantled in Estonia and replaced with a market economy, open their opportunity in the international market.
 
@@ -55,39 +33,18 @@ Personal data of Estonians are centralized and make accessible to other services
 
 In 2014, Estonia launched their new model of e-residency, which leads to a brand-new way of creating a business. Anyone from anywhere can register for a digital residency and will receive a government-issued digital ID and full access to conduct business globally. This entrepreneur-devoted convenience along with competent tax policy is Estonia’s weapon to attract investments from all over the world as well as to build a dynamic economy.
 
-Besides all the benefits from digitalizing society, <mark>there are challenges in adapting to a network society model:</mark>
+#### Challenges of Estonia Model
 
-<div class="columns-container">
-  <div class="row">
-    <div class="col col-lg-4">
-      <div class="card card--border-top element-bottomshadow">
-        <div class="card-body">
-          <h5 class="card-title">Identity Thief</h5>
-          <p class="card-text">The most critical concern of having every service linked to identity is “identity thief.” What happens if a hacker can steal digital ID from a civilian? Will he be able to access all sensitive data?</p>
-        </div>
-      </div>
-    </div>
-    <div class="col col-lg-4">
-      <div class="card card--border-left element-bottomshadow">
-        <div class="card-body ">
-          <h5 class="card-title">Attack vulnerability</h5>
-          <p class="card-text">Having a centralized system makes the country vulnerable from attack. The history of Estonia proved that this could happen – the cyber-attack in 2009 put Estonia in a hard time when their digital infrastructure had been damaged, and almost all services are in- operational.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col col-lg-4">
-      <div class="card card--border-top element-bottomshadow">
-        <div class="card-body">
-          <h5 class="card-title">Tax verification</h5>
-          <p class="card-text">Paying tax online is a convenient way for its people. However, from the government side, what is the best way to verify all the data in the tax form is verified? Especially in the case of “freelancers” – people who work freely without a contract or details record of income?</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+**Identity Thief**
+> The most critical concern of having every service linked to identity is “identity thief.” What happens if a hacker can steal digital ID from a civilian? Will he be able to access all sensitive data?
 
-<br />
-#### How about my country – VIETNAM?
+**Attack vulnerability**
+> Having a centralized system makes the country vulnerable from attack. The history of Estonia proved that this could happen – the cyber-attack in 2009 put Estonia in a hard time when their digital infrastructure had been damaged, and almost all services are in- operational.
+
+**Tax verification**
+> Paying tax online is a convenient way for its people. However, from the government side, what is the best way to verify all the data in the tax form is verified? Especially in the case of “freelancers” – people who work freely without a contract or details record of income?
+
+### How about Vietnam ?
 
 Since the mid-1980s, through the Doi Moi reform period, Vietnam has made a shift from a highly centralized planned economy to a mixed economy that uses both directive and indicative planning through five-year plans. Over that period, the economy has experienced rapid growth. In the twenty-first century, Vietnam is in a period of being integrated into the global economy. Almost all Vietnamese enterprises are small and medium enterprises. Compared to developed countries, Vietnam economy is still young and undergoing developing state.
 

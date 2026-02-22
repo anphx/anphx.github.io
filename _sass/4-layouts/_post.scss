@@ -1,10 +1,84 @@
 /* Post + Page */
+
+/* Post header container with + icon pattern background */
 .post__head {
+  position: relative;
   margin: 48px 0;
+  padding: 48px 0;
+  background:
+    radial-gradient(circle, #d0d0d0 1px, transparent 1px);
+  background-size: 35px 35px;
 
   @media (max-width: $tablet) {
-    margin: 16px 0 32px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    padding: 32px 0;
   }
+
+  @media (max-width: $mobile) {
+    padding: 24px 0;
+  }
+}
+
+.post__head-content {
+  position: relative;
+  z-index: 2;
+}
+
+
+.post__head::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    linear-gradient(90deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(0deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(90deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(0deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(90deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(0deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(90deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(0deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(90deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(0deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(90deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(0deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(90deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(0deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(90deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(0deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(90deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(0deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(90deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px)),
+    linear-gradient(0deg, transparent calc(50% - 0.5px), var(--primary-color) calc(50% - 0.5px), var(--primary-color) calc(50% + 0.5px), transparent calc(50% + 0.5px));
+  background-size:
+    10px 10px, 10px 10px,
+    10px 10px, 10px 10px,
+    10px 10px, 10px 10px,
+    10px 10px, 10px 10px,
+    10px 10px, 10px 10px,
+    10px 10px, 10px 10px,
+    10px 10px, 10px 10px,
+    10px 10px, 10px 10px,
+    10px 10px, 10px 10px,
+    10px 10px, 10px 10px;
+  background-position:
+    15% 12%, 15% 12%,
+    78% 23%, 78% 23%,
+    42% 35%, 42% 35%,
+    65% 58%, 65% 58%,
+    28% 71%, 28% 71%,
+    88% 82%, 88% 82%,
+    8% 47%, 8% 47%,
+    52% 19%, 52% 19%,
+    92% 45%, 92% 45%,
+    5% 88%, 5% 88%;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: 1;
 }
 
 .post__meta {

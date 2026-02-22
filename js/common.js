@@ -118,7 +118,11 @@ document.addEventListener("DOMContentLoaded", function() {
     searchInput: document.getElementById("js-search-input"),
     resultsContainer: document.getElementById("js-results-container"),
     json: "/search.json",
-    searchResultTemplate: '<div class="search-results__item"><a href="{url}" class="search-results__image" style="background-image: url({image})"></a> <a href="{url}" class="search-results__link"><time class="search-results-date" datetime="{date}">{date}</time><div class="search-results-title">{title}</div></a></div>',
+    searchResultTemplate: '<div class="search-results__item">' +
+        '<a href="{url}" class="search-results__image"></a>' +
+        '<a href="{url}" class="search-results__link">' +
+        '<time class="search-results-date" datetime="{date}">{date}</time>' +
+        '<div class="search-results-title">{title}</div></a></div>',
     noResultsText: '<div class="no-results">No results found...</div>'
   });
 
@@ -133,8 +137,51 @@ document.addEventListener("DOMContentLoaded", function() {
   // LazyLoad Images
   ======================= */
   var lazyLoadInstance = new LazyLoad({
-    elements_selector: ".lazy"
+    elements_selector: ".lazy",
+    callback_loaded: function(el) {
+      // Re-layout masonry when an image loads
+      if (typeof Masonry !== 'undefined' && window.masonryInstance) {
+        window.masonryInstance.layout();
+      }
+    }
   })
+
+
+  /* =======================
+  // Masonry Grid
+  ======================= */
+  function initMasonry() {
+    var masonryGrid = document.querySelector('.gallery-masonry');
+
+    if (masonryGrid && typeof Masonry !== 'undefined') {
+      window.masonryInstance = new Masonry(masonryGrid, {
+        itemSelector: '.gallery-item',
+        columnWidth: '.gallery-sizer',
+        gutter: 16,
+        percentPosition: true,
+        transitionDuration: '0.3s'
+      });
+
+      // Re-layout after all images are loaded
+      if (typeof imagesLoaded !== 'undefined') {
+        imagesLoaded(masonryGrid, function() {
+          window.masonryInstance.layout();
+        });
+      }
+    }
+  }
+
+  // Initialize masonry when libraries are ready
+  if (document.querySelector('.gallery-masonry')) {
+    if (typeof Masonry !== 'undefined') {
+      initMasonry();
+    } else {
+      // Wait for Masonry to load if async
+      window.addEventListener('load', function() {
+        setTimeout(initMasonry, 100);
+      });
+    }
+  }
 
 
   /* =======================
